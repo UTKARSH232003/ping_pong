@@ -19,5 +19,5 @@ const addtweet = function(username, tweet){
     btag.append(username)
     make.append(btag)
     make.append(` - ${tweet}`)
-    tweetcontainer.append(make)
+    tweetcontainer.append(make);
 }
