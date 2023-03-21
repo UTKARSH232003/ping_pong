@@ -21,3 +21,7 @@ const addtweet = function(username, tweet){
     make.append(` - ${tweet}`)
     tweetcontainer.append(make);
 }
+tweetcontainer.addEventListener('click', function(e){
+    console.log("CLICK ON UL")
+    console.log(e)
+})
